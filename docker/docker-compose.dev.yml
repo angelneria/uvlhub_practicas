@@ -1,6 +1,6 @@
 services:
   web:
-    container_name: web_app_container
+    container_name: #web_app_container
     image: drorganvidez/uvlhub:dev
     env_file:
       - ../.env
@@ -10,7 +10,7 @@ services:
       - db
     build:
       context: ../
-      dockerfile: docker/images/Dockerfile.dev
+      dockerfile: docker/images/Dockerfile.de v
     volumes:
       - ../:/app
       - /var/run/docker.sock:/var/run/docker.sock
@@ -47,7 +47,7 @@ services:
       - uvlhub_network
 
 volumes:
-  db_data:
+  db_data:Fffff
 
 networks:
   uvlhub_network:
