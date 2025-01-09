@@ -15,4 +15,4 @@ jobs:
         with:
           token: ${{ secrets.TOKEN }}
           title: Simple test issue
-          body: my new issue rq1
+          body: my new issue main
